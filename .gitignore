@@ -8,6 +8,11 @@ __pycache__/
 *.jpg
 *.mat
 *.csv
+*.m
+*.json
+*.eps
+*.pdf
+*.BMP
 
 # saved models
 *.pt
@@ -87,6 +92,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
 # IPython
 profile_default/
