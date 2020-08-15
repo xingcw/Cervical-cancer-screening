@@ -1,7 +1,3 @@
-History operations learning
-
-Test: learning git operations
-
 Undergraduate Thesis Program: Cervical cancer cytologicl AI screening system based on Mask RCNN deep learning model
 
 Abstract:
