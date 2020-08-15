@@ -162,8 +162,8 @@ def get_instance_segmentation_model(num_classes):
 
 
 # use the PennFudan dataset and defined transformations
-dataset = ISBI14Dataset(r'E:\seniorSpring\UndergraduateThesis\cervicalCancerScreening\dataset', get_transform(train=True))
-dataset_test = ISBI14Dataset(r'E:\seniorSpring\UndergraduateThesis\cervicalCancerScreening\dataset', get_transform(train=False))
+dataset = ISBI14Dataset(r'dataset', get_transform(train=True))
+dataset_test = ISBI14Dataset(r'dataset', get_transform(train=False))
 
 # dataset[0]
 # dataset_test[0]

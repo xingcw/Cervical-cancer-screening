@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb388a77-d25e-4738-b586-0c29527b8a8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,6 +146,7 @@
       <workItem from="1597502455690" duration="689000" />
       <workItem from="1597503194477" duration="474000" />
       <workItem from="1597504521376" duration="27000" />
+      <workItem from="1597504981432" duration="176000" />
     </task>
     <servers />
   </component>
@@ -195,10 +194,10 @@
       <screen x="70" y="0" width="1466" height="864" />
     </state>
     <state x="304" y="74" key="SettingsEditor/70.0.1466.864@70.0.1466.864" timestamp="1597502960006" />
-    <state x="483" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1597504522096">
+    <state x="483" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1597504982613">
       <screen x="70" y="0" width="1466" height="864" />
     </state>
-    <state x="483" y="256" key="com.intellij.ide.util.TipDialog/70.0.1466.864@70.0.1466.864" timestamp="1597504522096" />
+    <state x="483" y="256" key="com.intellij.ide.util.TipDialog/70.0.1466.864@70.0.1466.864" timestamp="1597504982613" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cervicalCancerScreening$colorImgRead.coverage" NAME="colorImgRead Coverage Results" MODIFIED="1596963013600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
