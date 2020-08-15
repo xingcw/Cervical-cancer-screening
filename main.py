@@ -1,6 +1,6 @@
 from utils import transforms as T
 import torch
-import utils
+from utils import utils
 import os
 import numpy as np
 import torch.utils.data
@@ -8,7 +8,7 @@ from PIL import Image
 import torchvision
 import matplotlib.pyplot as plt
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
-from .utils.engine import train_one_epoch, evaluate
+from utils.engine import train_one_epoch, evaluate
 from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
 from torchvision.models.detection import FasterRCNN
 from torchvision.models.detection.rpn import AnchorGenerator
@@ -162,8 +162,8 @@ def get_instance_segmentation_model(num_classes):
 
 
 # use the PennFudan dataset and defined transformations
-dataset = ISBI14Dataset(r'E:\大四下\毕设\第四周_MaskRCNN\dataset', get_transform(train=True))
-dataset_test = ISBI14Dataset(r'E:\大四下\毕设\第四周_MaskRCNN\dataset', get_transform(train=False))
+dataset = ISBI14Dataset(r'E:\seniorSpring\UndergraduateThesis\cervicalCancerScreening\dataset', get_transform(train=True))
+dataset_test = ISBI14Dataset(r'E:\seniorSpring\UndergraduateThesis\cervicalCancerScreening\dataset', get_transform(train=False))
 
 # dataset[0]
 # dataset_test[0]
